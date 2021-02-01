@@ -1,0 +1,27 @@
+<template>
+  <div class="flex justify-between ml-6 mr-6 mt-4">
+    <nuxt-link to="/">
+      <span class="emoji">
+        🧁
+      </span>
+    </nuxt-link>
+    <button class="snipcart-checkout flex items-center">
+      cart
+      <span
+        class="snipcart-total-price ml-3 font-semibold text-sm text-indigo-500"
+      ></span>
+    </button>
+  </div>
+</template>
+<script>
+
+export default {
+    name: 'NavBar'
+
+};
+</script>
+<style>
+.emoji {
+  font-size: 30px;
+}
+</style>
