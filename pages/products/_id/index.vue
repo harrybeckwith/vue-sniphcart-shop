@@ -14,6 +14,7 @@
             </h4>
             <div class="mt-1 text-gray-600">{{ product.description }}</div>
           </div>
+          {{this.$route.fullPath}}
           <button
             class="snipcart-add-item mt-4 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
             :data-item-id="product.id"
